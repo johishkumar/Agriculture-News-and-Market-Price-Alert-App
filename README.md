@@ -1,72 +1,82 @@
 # 🌾 UZHAVAR – Smart Agriculture E-Commerce Platform
 
-UZHAVAR is a modern agriculture-focused e-commerce website that connects farmers directly with customers. The platform allows users to browse fresh agricultural products, place orders online, and support local farmers through a simple, secure, and user-friendly interface.
+UZHAVAR is a modern agriculture-focused e-commerce platform that connects farmers directly with customers. The platform enables users to browse fresh agricultural products, place orders online, and support local farmers through a simple, secure, and user-friendly shopping experience.
+
+## 🌐 Live Demo
+
+🚀 **Website:** https://agriculture-news-and-market-price-a.vercel.app/
 
 ---
 
 ## 📖 Overview
 
-UZHAVAR aims to eliminate middlemen by providing a digital marketplace where farmers can sell their products directly to consumers. The platform promotes fair pricing, fresh produce, and sustainable agriculture while making online shopping easy for customers.
+UZHAVAR aims to eliminate middlemen by providing a digital marketplace where farmers can sell their products directly to consumers. The platform promotes fair pricing, fresh produce, and sustainable agriculture while making online shopping convenient for customers.
 
 ---
 
 ## ✨ Features
 
-- 🌱 Farmer Registration & Login
-- 👤 Customer Authentication
-- 🛒 Product Catalog
-- 🔍 Search & Filter Products
-- ❤️ Wishlist
-- 🛍 Shopping Cart
-- 💳 Secure Checkout
-- 📦 Order Management
-- 📱 Responsive Design
-- 🔐 User Authentication
-- 📊 Admin Dashboard
-- 🌾 Category Management
+* 🌱 Farmer Registration & Login
+* 👤 Customer Authentication
+* 🛒 Product Catalog
+* 🔍 Search & Filter Products
+* ❤️ Wishlist
+* 🛍️ Shopping Cart
+* 💳 Secure Checkout
+* 📦 Order Management
+* 📱 Fully Responsive Design
+* 🔐 JWT Authentication
+* 📊 Admin Dashboard
+* 🌾 Product & Category Management
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 ### Frontend
-- HTML5
-- CSS3
-- JavaScript
-- React.js
-- Bootstrap / Tailwind CSS
+
+* React.js
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* Bootstrap / Tailwind CSS
 
 ### Backend
-- Node.js
-- Express.js
+
+* Node.js
+* Express.js
 
 ### Database
-- MongoDB
+
+* MongoDB Atlas
 
 ### Authentication
-- JWT (JSON Web Token)
-- bcrypt
+
+* JWT (JSON Web Token)
+* bcrypt
 
 ### Deployment
-- Vercel (Frontend)
-- Render / Railway (Backend)
-- MongoDB Atlas
+
+* Frontend – Vercel
+* Backend – Render / Railway
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 UZHAVAR/
 │
 ├── client/
 │   ├── public/
 │   ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│   └── App.js
-│
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── context/
+│   │   └── App.js
+│   │
 ├── server/
 │   ├── config/
 │   ├── controllers/
@@ -81,7 +91,7 @@ UZHAVAR/
 
 ---
 
-## 🚀 Installation
+## 🚀 Getting Started
 
 ### Clone the Repository
 
@@ -89,7 +99,7 @@ UZHAVAR/
 git clone https://github.com/yourusername/uzhavar.git
 ```
 
-### Navigate to Project
+### Navigate to the Project
 
 ```bash
 cd uzhavar
@@ -97,39 +107,47 @@ cd uzhavar
 
 ### Install Dependencies
 
-Frontend
+#### Frontend
 
 ```bash
 cd client
 npm install
 ```
 
-Backend
+#### Backend
 
 ```bash
-cd server
+cd ../server
 npm install
 ```
 
-### Start Development Server
+### Run the Application
 
-Frontend
-
-```bash
-npm start
-```
-
-Backend
+#### Start Backend
 
 ```bash
 npm run dev
+```
+
+#### Start Frontend
+
+```bash
+cd ../client
+npm start
+```
+
+The application will be available at:
+
+```text
+Frontend: http://localhost:3000
+Backend : http://localhost:5000
 ```
 
 ---
 
 ## ⚙️ Environment Variables
 
-Create a `.env` file inside the server folder.
+Create a `.env` file inside the `server` folder.
 
 ```env
 PORT=5000
@@ -141,28 +159,29 @@ JWT_SECRET=your_secret_key
 
 ## 📸 Screenshots
 
-Add screenshots here.
+Add project screenshots here.
 
-```
-Home Page
-Products Page
-Cart
-Checkout
-Admin Dashboard
-```
+* 🏠 Home Page
+* 🌾 Product Listing
+* 🔍 Search Results
+* 🛒 Shopping Cart
+* 💳 Checkout
+* 📦 Orders
+* 📊 Admin Dashboard
 
 ---
 
 ## 🎯 Future Enhancements
 
-- AI Crop Recommendation
-- Weather Forecast Integration
-- Online Farmer Community
-- Live Order Tracking
-- Payment Gateway Integration
-- Voice Search
-- Multi-language Support
-- Mobile Application
+* 🤖 AI Crop Recommendation System
+* 🌦️ Weather Forecast Integration
+* 💹 Live Market Price Updates
+* 📍 GPS-Based Farmer Locator
+* 🚚 Live Order Tracking
+* 💳 Razorpay/Stripe Payment Gateway
+* 🎤 Voice Search
+* 🌍 Multi-language Support
+* 📱 Android & iOS Mobile App
 
 ---
 
@@ -171,7 +190,7 @@ Admin Dashboard
 Contributions are welcome!
 
 1. Fork the repository
-2. Create a new branch
+2. Create a feature branch
 
 ```bash
 git checkout -b feature-name
@@ -180,7 +199,7 @@ git checkout -b feature-name
 3. Commit your changes
 
 ```bash
-git commit -m "Added new feature"
+git commit -m "Add new feature"
 ```
 
 4. Push to GitHub
@@ -189,30 +208,38 @@ git commit -m "Added new feature"
 git push origin feature-name
 ```
 
-5. Create a Pull Request
+5. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.
 
 ---
 
 ## 👨‍💻 Developer
 
-**K.C.JOHISHKUMAR**
+**K. C. JohishKumar**
 
-MAIL: johish6383@gmail.com
+📧 Email: **[johish6383@gmail.com](mailto:johish6383@gmail.com)**
+
+🐙 GitHub: **https://github.com/johishkumar**
 
 ---
 
 ## ⭐ Support
 
-If you like this project, please give it a ⭐ on GitHub.
+If you found this project helpful, please consider:
 
-It helps support the project and motivates future development.
+* ⭐ Starring the repository
+* 🍴 Forking the project
+* 🤝 Contributing to future development
+
+Your support helps improve the project and motivates future enhancements.
 
 ---
 
-### 🌾 "Empowering Farmers, Nourishing Communities."
+## 🌾 Vision
+
+> **"Empowering Farmers, Connecting Communities, and Building a Sustainable Agricultural Future."**
